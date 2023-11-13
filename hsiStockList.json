@@ -1,0 +1,482 @@
+[
+  {
+    "symbol": "0001.HK",
+    "nameEng": "CKH HOLDINGS",
+    "nameChi": "長和",
+    "industry": "綜合企業"
+  },
+  {
+    "symbol": "0002.HK",
+    "nameEng": "CLP HOLDINGS",
+    "nameChi": "中電控股",
+    "industry": "公用事業"
+  },
+  {
+    "symbol": "0003.HK",
+    "nameEng": "HK & CHINA GAS",
+    "nameChi": "香港中華煤氣",
+    "industry": "公用事業"
+  },
+  {
+    "symbol": "0005.HK",
+    "nameEng": "HSBC HOLDINGS",
+    "nameChi": "匯豐控股",
+    "industry": "金融業"
+  },
+  {
+    "symbol": "0006.HK",
+    "nameEng": "POWER ASSETS",
+    "nameChi": "電能實業",
+    "industry": "公用事業"
+  },
+  {
+    "symbol": "0011.HK",
+    "nameEng": "HANG SENG BANK",
+    "nameChi": "恒生銀行",
+    "industry": "金融業"
+  },
+  {
+    "symbol": "0012.HK",
+    "nameEng": "HENDERSON LAND",
+    "nameChi": "恆基地產",
+    "industry": "地產建築業"
+  },
+  {
+    "symbol": "0016.HK",
+    "nameEng": "SHK PPT",
+    "nameChi": "新鴻基地產",
+    "industry": "地產建築業"
+  },
+  {
+    "symbol": "0017.HK",
+    "nameEng": "NEW WORLD DEV",
+    "nameChi": "新世界發展",
+    "industry": "地產建築業"
+  },
+  {
+    "symbol": "0027.HK",
+    "nameEng": "GALAXY ENT",
+    "nameChi": "銀河娛樂",
+    "industry": "非必需性消費"
+  },
+  {
+    "symbol": "0066.HK",
+    "nameEng": "MTR CORPORATION",
+    "nameChi": "港鐵公司",
+    "industry": "非必需性消費"
+  },
+  {
+    "symbol": "0101.HK",
+    "nameEng": "HANG LUNG PPT",
+    "nameChi": "恆隆地產",
+    "industry": "地產建築業"
+  },
+  {
+    "symbol": "0175.HK",
+    "nameEng": "GEELY AUTO",
+    "nameChi": "吉利汽車",
+    "industry": "非必需性消費"
+  },
+  {
+    "symbol": "0241.HK",
+    "nameEng": "ALI HEALTH",
+    "nameChi": "阿里健康",
+    "industry": "醫療保健業"
+  },
+  {
+    "symbol": "0267.HK",
+    "nameEng": "CITIC",
+    "nameChi": "中信股份",
+    "industry": "綜合企業"
+  },
+  {
+    "symbol": "0288.HK",
+    "nameEng": "WH GROUP",
+    "nameChi": "萬洲國際",
+    "industry": "必需性消費"
+  },
+  {
+    "symbol": "0291.HK",
+    "nameEng": "CHINA RES BEER",
+    "nameChi": "華潤啤酒",
+    "industry": "必需性消費"
+  },
+  {
+    "symbol": "0316.HK",
+    "nameEng": "OOIL",
+    "nameChi": "東方海外國際",
+    "industry": "工業"
+  },
+  {
+    "symbol": "0386.HK",
+    "nameEng": "SINOPEC CORP",
+    "nameChi": "中國石油化工股份",
+    "industry": "能源業"
+  },
+  {
+    "symbol": "0388.HK",
+    "nameEng": "HKEX",
+    "nameChi": "香港交易所",
+    "industry": "金融業"
+  },
+  {
+    "symbol": "0669.HK",
+    "nameEng": "TECHTRONIC IND",
+    "nameChi": "創科實業",
+    "industry": "非必需性消費"
+  },
+  {
+    "symbol": "0688.HK",
+    "nameEng": "CHINA OVERSEAS",
+    "nameChi": "中國海外發展",
+    "industry": "地產建築業"
+  },
+  {
+    "symbol": "0700.HK",
+    "nameEng": "TENCENT",
+    "nameChi": "騰訊控股",
+    "industry": "資訊科技業"
+  },
+  {
+    "symbol": "0762.HK",
+    "nameEng": "CHINA UNICOM",
+    "nameChi": "中國聯通",
+    "industry": "電訊業"
+  },
+  {
+    "symbol": "0823.HK",
+    "nameEng": "LINK REIT",
+    "nameChi": "領展房產基金",
+    "industry": "地產建築業"
+  },
+  {
+    "symbol": "0857.HK",
+    "nameEng": "PETROCHINA",
+    "nameChi": "中國石油股份",
+    "industry": "能源業"
+  },
+  {
+    "symbol": "0868.HK",
+    "nameEng": "XINYI GLASS",
+    "nameChi": "信義玻璃",
+    "industry": "工業"
+  },
+  {
+    "symbol": "0881.HK",
+    "nameEng": "ZHONGSHENG HLDG",
+    "nameChi": "中升控股",
+    "industry": "非必需性消費"
+  },
+  {
+    "symbol": "0883.HK",
+    "nameEng": "CNOOC",
+    "nameChi": "中國海洋石油",
+    "industry": "能源業"
+  },
+  {
+    "symbol": "0939.HK",
+    "nameEng": "CCB",
+    "nameChi": "建設銀行",
+    "industry": "金融業"
+  },
+  {
+    "symbol": "0941.HK",
+    "nameEng": "CHINA MOBILE",
+    "nameChi": "中國移動",
+    "industry": "電訊業"
+  },
+  {
+    "symbol": "0960.HK",
+    "nameEng": "LONGFOR GROUP",
+    "nameChi": "龍湖集團",
+    "industry": "地產建築業"
+  },
+  {
+    "symbol": "0968.HK",
+    "nameEng": "XINYI SOLAR",
+    "nameChi": "信義光能",
+    "industry": "工業"
+  },
+  {
+    "symbol": "0981.HK",
+    "nameEng": "SMIC",
+    "nameChi": "中芯國際",
+    "industry": "資訊科技業"
+  },
+  {
+    "symbol": "0992.HK",
+    "nameEng": "LENOVO GROUP",
+    "nameChi": "聯想集團",
+    "industry": "資訊科技業"
+  },
+  {
+    "symbol": "1038.HK",
+    "nameEng": "CKI HOLDINGS",
+    "nameChi": "長江基建集團",
+    "industry": "公用事業"
+  },
+  {
+    "symbol": "1044.HK",
+    "nameEng": "HENGAN INT'L",
+    "nameChi": "恆安國際",
+    "industry": "必需性消費"
+  },
+  {
+    "symbol": "1088.HK",
+    "nameEng": "CHINA SHENHUA",
+    "nameChi": "中國神華",
+    "industry": "能源業"
+  },
+  {
+    "symbol": "1093.HK",
+    "nameEng": "CSPC PHARMA",
+    "nameChi": "石藥集團",
+    "industry": "醫療保健業"
+  },
+  {
+    "symbol": "1109.HK",
+    "nameEng": "CHINA RES LAND",
+    "nameChi": "華潤置地",
+    "industry": "地產建築業"
+  },
+  {
+    "symbol": "1113.HK",
+    "nameEng": "CK ASSET",
+    "nameChi": "長實集團",
+    "industry": "地產建築業"
+  },
+  {
+    "symbol": "1177.HK",
+    "nameEng": "SINO BIOPHARM",
+    "nameChi": "中國生物製藥",
+    "industry": "醫療保健業"
+  },
+  {
+    "symbol": "1211.HK",
+    "nameEng": "BYD COMPANY",
+    "nameChi": "比亞迪股份",
+    "industry": "非必需性消費"
+  },
+  {
+    "symbol": "1299.HK",
+    "nameEng": "AIA",
+    "nameChi": "友邦保險",
+    "industry": "金融業"
+  },
+  {
+    "symbol": "1378.HK",
+    "nameEng": "CHINAHONGQIAO",
+    "nameChi": "中國宏橋",
+    "industry": "原材料業"
+  },
+  {
+    "symbol": "1398.HK",
+    "nameEng": "ICBC",
+    "nameChi": "工商銀行",
+    "industry": "金融業"
+  },
+  {
+    "symbol": "1810.HK",
+    "nameEng": "XIAOMI-W",
+    "nameChi": "小米集團－Ｗ",
+    "industry": "資訊科技業"
+  },
+  {
+    "symbol": "1876.HK",
+    "nameEng": "BUD APAC",
+    "nameChi": "百威亞太",
+    "industry": "必需性消費"
+  },
+  {
+    "symbol": "1928.HK",
+    "nameEng": "SANDS CHINA LTD",
+    "nameChi": "金沙中國有限公司",
+    "industry": "非必需性消費"
+  },
+  {
+    "symbol": "1929.HK",
+    "nameEng": "CHOW TAI FOOK",
+    "nameChi": "周大福",
+    "industry": "非必需性消費"
+  },
+  {
+    "symbol": "1997.HK",
+    "nameEng": "WHARF REIC",
+    "nameChi": "九龍倉置業",
+    "industry": "地產建築業"
+  },
+  {
+    "symbol": "2020.HK",
+    "nameEng": "ANTA SPORTS",
+    "nameChi": "安踏體育",
+    "industry": "非必需性消費"
+  },
+  {
+    "symbol": "2269.HK",
+    "nameEng": "WUXI BIO",
+    "nameChi": "藥明生物",
+    "industry": "醫療保健業"
+  },
+  {
+    "symbol": "2313.HK",
+    "nameEng": "SHENZHOU INTL",
+    "nameChi": "申洲國際",
+    "industry": "非必需性消費"
+  },
+  {
+    "symbol": "2318.HK",
+    "nameEng": "PING AN",
+    "nameChi": "中國平安",
+    "industry": "金融業"
+  },
+  {
+    "symbol": "2319.HK",
+    "nameEng": "MENGNIU DAIRY",
+    "nameChi": "蒙牛乳業",
+    "industry": "必需性消費"
+  },
+  {
+    "symbol": "2331.HK",
+    "nameEng": "LI NING",
+    "nameChi": "李寧",
+    "industry": "非必需性消費"
+  },
+  {
+    "symbol": "2382.HK",
+    "nameEng": "SUNNY OPTICAL",
+    "nameChi": "舜宇光學科技",
+    "industry": "工業"
+  },
+  {
+    "symbol": "2388.HK",
+    "nameEng": "BOC HONG KONG",
+    "nameChi": "中銀香港",
+    "industry": "金融業"
+  },
+  {
+    "symbol": "2628.HK",
+    "nameEng": "CHINA LIFE",
+    "nameChi": "中國人壽",
+    "industry": "金融業"
+  },
+  {
+    "symbol": "2688.HK",
+    "nameEng": "ENN ENERGY",
+    "nameChi": "新奧能源",
+    "industry": "公用事業"
+  },
+  {
+    "symbol": "3690.HK",
+    "nameEng": "MEITUAN-W",
+    "nameChi": "美團－Ｗ",
+    "industry": "資訊科技業"
+  },
+  {
+    "symbol": "3692.HK",
+    "nameEng": "HANSOH PHARMA",
+    "nameChi": "翰森製藥",
+    "industry": "醫療保健業"
+  },
+  {
+    "symbol": "3968.HK",
+    "nameEng": "CM BANK",
+    "nameChi": "招商銀行",
+    "industry": "金融業"
+  },
+  {
+    "symbol": "3988.HK",
+    "nameEng": "BANK OF CHINA",
+    "nameChi": "中國銀行",
+    "industry": "金融業"
+  },
+  {
+    "symbol": "6098.HK",
+    "nameEng": "CG SERVICES",
+    "nameChi": "碧桂園服務",
+    "industry": "地產建築業"
+  },
+  {
+    "symbol": "6862.HK",
+    "nameEng": "HAIDILAO",
+    "nameChi": "海底撈",
+    "industry": "非必需性消費"
+  },
+  {
+    "symbol": "9618.HK",
+    "nameEng": "JD-SW",
+    "nameChi": "京東集團－ＳＷ",
+    "industry": "資訊科技業"
+  },
+  {
+    "symbol": "9633.HK",
+    "nameEng": "NONGFU SPRING",
+    "nameChi": "農夫山泉",
+    "industry": "必需性消費"
+  },
+  {
+    "symbol": "9888.HK",
+    "nameEng": "BIDU-SW",
+    "nameChi": "百度集團－ＳＷ",
+    "industry": "資訊科技業"
+  },
+  {
+    "symbol": "9988.HK",
+    "nameEng": "BABA-SW",
+    "nameChi": "阿里巴巴－ＳＷ",
+    "industry": "資訊科技業"
+  },
+  {
+    "symbol": "9999.HK",
+    "nameEng": "NTES-S",
+    "nameChi": "網易－Ｓ",
+    "industry": "資訊科技業"
+  },
+  {
+    "symbol": "0322.HK",
+    "nameEng": "TINGYI",
+    "nameChi": "康師傅控股",
+    "industry": "必需性消費"
+  },
+  {
+    "symbol": "1209.HK",
+    "nameEng": "China Resources Mixc Lifestyle Services Limited",
+    "nameChi": "華潤萬象生活",
+    "industry": "地產建築業"
+  },
+  {
+    "symbol": "6690.HK",
+    "nameEng": "HAIER SMARTHOME",
+    "nameChi": "海爾智家",
+    "industry": "非必需性消費"
+  },
+  {
+    "symbol": "0836.HK",
+    "nameEng": "China Resources Power Holdings Company Limited",
+    "nameChi": "華潤電力",
+    "industry": "公用事業"
+  },
+  {
+    "symbol": "2899.HK",
+    "nameEng": "Zijin Mining Group Company Limited",
+    "nameChi": "紫金礦業",
+    "industry": "原材料業"
+  },
+  {
+    "symbol": "6618.HK",
+    "nameEng": "JD Health International Inc.",
+    "nameChi": "京東健康",
+    "industry": "醫療保健業"
+  },
+  {
+    "symbol": "9961.HK",
+    "nameEng": "Trip.com Group Limited",
+    "nameChi": "攜程集團－Ｓ",
+    "industry": "非必需性消費"
+  },
+  {
+    "symbol": "1099.HK",
+    "nameEng": "SINOPHARM",
+    "nameChi": "國藥控股",
+    "industry": "醫療保健業"
+  }
+]
