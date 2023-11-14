@@ -5,10 +5,17 @@ For a down market last for 60 days use linear regression to judge）, the price 
 
 If price of holding stock increase 5%, then sell
 # result
+## overall result
 result 60.csv is the result of all stocks applying the above strategy from 2021-08-23 to 2023-09-23.
+
+result 30.csv is the result of all stocks applying the above strategy（but down market for 30 days） from 2021-08-23 to 2023-09-23.
 
 1st column: stock symbol; 
 
 2st column: final balance with initial balance=1000000; 
 
 3st column: profit rate= (final balance-initial balance)/initial balance. The higher the better.
+
+
+## individual result for stocks
+./result/plotxxxx.HK.png is the result of one stock applying the above strategy(down market for 60 days) from 2021-08-23 to 2023-09-23.
