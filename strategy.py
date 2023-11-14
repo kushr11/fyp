@@ -135,7 +135,7 @@ for syb in symbols:
                             print(f"Date: {item['date'][:10]},today close:{today_close}, balance:{balance}, buy expenditure: {buy_volume * today_close}")
                             buy_dates.append(ct)
                     balance_values.append(balance + holding_volume * today_close)
-                    balance_days.append(ct)  # 记录余额记录的时间点
+                    balance_days.append(ct)
                 prev_RSI = RSI
                 # print(f"Date: {item['date'][:10]}, day {ct}, if down market for 1 month:{slope < 0}, RSI:{RSI}, RSI higher than prev RIS:{RSI > prev_RSI}")
         # print(holding_volume,today_close)
@@ -168,4 +168,4 @@ for syb in symbols:
             writer.writerow([syb,balance + holding_volume * today_close, (balance + holding_volume * today_close-INITIAL_BALANCE)/INITIAL_BALANCE])
     else:
 
-        print('请求失败：', response.status_code)
+        print('request lose:', response.status_code)
