@@ -60,7 +60,7 @@ for syb in symbols:
         RSI = 100 - (100 / (1 + RS))
 
         return slope,RSI
-    # 处理响应
+
     if response.status_code == 200:
         data = response.json()
         daily_close=[]
@@ -75,12 +75,12 @@ for syb in symbols:
         holding_price = 1
         holding_volume=0
 
-        # 初始化列表来存储数据点
+        # lists for figure
         today_close_values = []
         balance_values = []
         balance_days = []
-        buy_dates = []  # 买入的日期
-        sell_dates = []  # 卖出的日期
+        buy_dates = []  # buy date
+        sell_dates = []  # sell date
 
         for item in data:
             ct+=1
