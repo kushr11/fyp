@@ -29,9 +29,9 @@ for syb in symbols:
     # syb="0316.HK"
     params={
 
-    'fromDate': '2021-08-23',
+    'fromDate': '2019-08-23',
 
-    'toDate': '2023-09-23',
+    'toDate': '2021-09-23',
 
     'symbol': syb,
 
@@ -114,6 +114,8 @@ for syb in symbols:
                     # print(holding_volume,holding_price,today_close)
                     if(slope<0 and RSI>prev_RSI and RSI>30):
                         buy_signal=True
+                    elif (slope >= 0 and RSI <= prev_RSI and RSI > 30):
+                        buy_signal = True
 
                     if((today_close-holding_price)/holding_price>=0.05):
                         sell_signal=True
@@ -142,28 +144,28 @@ for syb in symbols:
         print(f"Trading ends, Date: {item['date'][:10]}, day {ct}, balance:{balance + holding_volume * today_close}, initial balance={INITIAL_BALANCE}, profit rate={(balance + holding_volume * today_close-INITIAL_BALANCE)/INITIAL_BALANCE}")
 
         #draw figure
-        fig, ax1 = plt.subplots()
-        color = 'tab:red'
-        ax1.set_xlabel('Days')
-        ax1.set_ylabel('Balance', color=color)
-        ax1.plot(balance_days, balance_values, color=color,alpha=0.7)
-        ax1.tick_params(axis='y', labelcolor=color)
-
-
-        ax2 = ax1.twinx()
-        color = 'tab:blue'
-        ax2.set_ylabel('Today Close', color=color)
-        ax2.plot(today_close_values, color=color,alpha=0.7)
-        ax2.tick_params(axis='y', labelcolor=color)
-
-
-        ax2.scatter(buy_dates, [today_close_values[i] for i in buy_dates], color='black', marker='^', label='Buy')
-        ax2.scatter(sell_dates, [today_close_values[i] for i in sell_dates], color='black', marker='v', label='Sell')
-        ax2.legend()
-        plt.title(f'Stock Trading Strategy Performance-{syb}')
-        plt.savefig(f'./result/plot{syb}.png')
+        # fig, ax1 = plt.subplots()
+        # color = 'tab:red'
+        # ax1.set_xlabel('Days')
+        # ax1.set_ylabel('Balance', color=color)
+        # ax1.plot(balance_days, balance_values, color=color,alpha=0.7)
+        # ax1.tick_params(axis='y', labelcolor=color)
+        #
+        #
+        # ax2 = ax1.twinx()
+        # color = 'tab:blue'
+        # ax2.set_ylabel('Today Close', color=color)
+        # ax2.plot(today_close_values, color=color,alpha=0.7)
+        # ax2.tick_params(axis='y', labelcolor=color)
+        #
+        #
+        # ax2.scatter(buy_dates, [today_close_values[i] for i in buy_dates], color='black', marker='^', label='Buy')
+        # ax2.scatter(sell_dates, [today_close_values[i] for i in sell_dates], color='black', marker='v', label='Sell')
+        # ax2.legend()
+        # plt.title(f'Stock Trading Strategy Performance-{syb}')
+        # plt.savefig(f'./result/plot{syb}.png')
         # sys.exit()
-        with open("result_60.csv", "a+") as csvfile:
+        with open("result_60_19_21.csv", "a+") as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow([syb,balance + holding_volume * today_close, (balance + holding_volume * today_close-INITIAL_BALANCE)/INITIAL_BALANCE])
     else:
